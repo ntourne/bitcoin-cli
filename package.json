@@ -1,0 +1,17 @@
+{
+  "name": "@ntourne/bitcoin-cli",
+  "version": "1.0.0",
+  "description": "A Bitcoin command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "beereal": "bin/bitcoin.js"
+  },
+  "author": "Nicolas Tourne",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

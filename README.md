@@ -9,13 +9,14 @@ First, install as global package.
 npm install -g @ntourne/bitcoin-cli
 ```
 
-Then, just use it.
+Then, just use it from your terminal
 ```
-bitcoin
+> bitcoin
 ````
 
 You will get a result like this:
 ```
+> bitcoin
 BTC 1
 USD 4,095
 GBP 3,055

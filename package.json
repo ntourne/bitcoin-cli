@@ -1,8 +1,12 @@
 {
   "name": "@ntourne/bitcoin-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Bitcoin command line tool",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ntourne/bitcoin-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

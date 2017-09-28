@@ -1,5 +1,5 @@
 # bitcoin-cli
-A Bitcoin command line tool
+A Bitcoin command line tool to get current price. That's all.
 
 
 ### How to use it

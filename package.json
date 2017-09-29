@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Bitcoin command line tool",
   "main": "index.js",
   "repository": {
@@ -8,13 +8,22 @@
     "url" : "https://github.com/ntourne/bitcoin-cli.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bin/bitcoin.js"
   },
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "cli",
+    "coin"
+  ],
   "bin": {
     "bitcoin": "bin/bitcoin.js"
   },
-  "author": "Nicolas Tourne",
-  "license": "ISC",
+  "author": "Nicolas Tourne <ntourne@beerealit.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntourne/bitcoin-cli/isues"
+  },
   "dependencies": {
     "request": "^2.83.0"
   }

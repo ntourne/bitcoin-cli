@@ -61,9 +61,7 @@ request('https://api.coindesk.com/v1/bpi/currentprice.json', function(error, res
         var oldYesterdayPrice = body.bpi[Object.keys(body.bpi)[30]];
         
         // Display compare prices
-        console.log('\n');
         console.log('Yesterday: ' + compare(currentPrice.bpi.USD.rate_float, oldYesterdayPrice) + '   7 days: ' + compare(currentPrice.bpi.USD.rate_float, old7daysPrice) + '   30 days: ' + compare(currentPrice.bpi.USD.rate_float, old30daysPrice));
-        console.log('\n');
         console.log('Updated: ' + currentPrice.time.updated);
     });
 });

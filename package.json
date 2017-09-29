@@ -1,6 +1,6 @@
 {
   "name": "@ntourne/bitcoin-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Bitcoin command line tool",
   "main": "index.js",
   "repository": {
